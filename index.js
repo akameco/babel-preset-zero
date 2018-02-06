@@ -16,6 +16,7 @@ const presets = [
 ].filter(Boolean)
 
 const plugins = [
+  require.resolve('babel-macros'),
   [
     require.resolve('babel-plugin-transform-object-rest-spread'),
     { useBuiltIns: true },
