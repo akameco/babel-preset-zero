@@ -5,7 +5,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-> [wip]: babelrc for zero config
+> babelrc for zero config
 
 ## Install
 
@@ -20,6 +20,18 @@ $ yarn add --dev babel-preset-zero
   "presets": ["zero"]
 }
 ```
+
+### Presets
+
+babel-preset-env
+babel-preset-flow (if flow-bin exist)
+babel-preset-react (if react exist)
+
+### Plugins
+
+babel-plugin-transform-object-rest-spread
+babel-plugin-transform-class-properties
+babel-plugin-minify-dead-code-elimination
 
 ## Contributors
 
