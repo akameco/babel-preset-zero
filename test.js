@@ -1,6 +1,11 @@
 // @flow
+
 const cases = require('jest-in-case')
 const { transform } = require('babel-core')
+
+jest.mock('ptils', () => ({
+  hasAnyDep: jest.fn(() => true),
+}))
 
 function snapshot(name, input) {
   const { code } = transform(input, {
@@ -33,6 +38,12 @@ cases(
       name: 'dead code',
       input: `
         function hoge() {var x = 1;}
+      `,
+    },
+    {
+      name: 'react',
+      input: `
+        const A = () => <div>hello</div>
       `,
     },
   ]

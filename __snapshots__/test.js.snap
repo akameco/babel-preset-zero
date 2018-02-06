@@ -28,3 +28,13 @@ exports[`snapshot object reset spread: object reset spread 1`] = `
 
 const a = Object.assign({}, foo);"
 `;
+
+exports[`snapshot react: react 1`] = `
+"\\"use strict\\";
+
+const A = () => React.createElement(
+        \\"div\\",
+        null,
+        \\"hello\\"
+);"
+`;

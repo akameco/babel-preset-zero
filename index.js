@@ -1,5 +1,7 @@
 // @flow
 'use strict'
+const { hasAnyDep } = require('ptils')
+
 const isTest = (process.env.BABEL_ENV || process.env.NODE_ENV) === 'test'
 
 const envTargets = isTest ? { node: 'current' } : { node: '6' }
@@ -10,7 +12,8 @@ const presets = [
     { targets: envTargets, useBuiltIns: true },
   ],
   require.resolve('babel-preset-flow'),
-]
+  hasAnyDep('react') && require.resolve('babel-preset-react'),
+].filter(Boolean)
 
 const plugins = [
   [
