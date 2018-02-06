@@ -23,15 +23,15 @@ $ yarn add --dev babel-preset-zero
 
 ### Presets
 
-babel-preset-env
-babel-preset-flow (if flow-bin exist)
-babel-preset-react (if react exist)
+- babel-preset-env
+- babel-preset-flow (if flow-bin exist)
+- babel-preset-react (if react exist)
 
 ### Plugins
 
-babel-plugin-transform-object-rest-spread
-babel-plugin-transform-class-properties
-babel-plugin-minify-dead-code-elimination
+- babel-plugin-transform-object-rest-spread
+- babel-plugin-transform-class-properties
+- babel-plugin-minify-dead-code-elimination
 
 ## Contributors
 
