@@ -11,7 +11,7 @@ const presets = [
     require.resolve('babel-preset-env'),
     { targets: envTargets, useBuiltIns: true },
   ],
-  require.resolve('babel-preset-flow'),
+  hasAnyDep('flow-bin') && require.resolve('babel-preset-flow'),
   hasAnyDep('react') && require.resolve('babel-preset-react'),
 ].filter(Boolean)
 
