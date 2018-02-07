@@ -29,8 +29,8 @@ $ yarn add --dev babel-preset-zero
 
 ### Plugins
 
-* [babel-plugin-transform-object-rest-spread](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-rest-spread)
-* [babel-plugin-transform-class-properties](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties)
+* [babel-plugin-transform-object-rest-spread](https://github.com/babel/babel)
+* [babel-plugin-transform-class-properties](https://github.com/babel/babel)
 * [babel-plugin-minify-dead-code-elimination](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-dead-code-elimination)
 * [babel-macros](https://github.com/kentcdodds/babel-macros)
 
