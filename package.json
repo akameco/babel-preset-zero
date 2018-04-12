@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "babel-macros": "^1.2.0",
-    "babel-plugin-minify-dead-code-elimination": "^0.3.0",
+    "babel-plugin-minify-dead-code-elimination": "^0.4.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
@@ -43,15 +43,15 @@
     "ptils": "^0.2.0"
   },
   "devDependencies": {
-    "all-contributors-cli": "^4.11.0",
+    "all-contributors-cli": "^4.11.1",
     "babel-core": "^6.26.0",
-    "eslint": "^4.18.2",
+    "eslint": "^4.19.1",
     "eslint-config-precure": "^2.6.0",
-    "flow-bin": "^0.67.1",
+    "flow-bin": "^0.69.0",
     "husky": "^0.14.3",
-    "jest": "^22.4.2",
+    "jest": "^22.4.3",
     "jest-in-case": "^1.0.2",
-    "lint-staged": "^7.0.0",
-    "prettier": "^1.11.1"
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.12.0"
   }
 }
