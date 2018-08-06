@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-zero",
-  "version": "0.2.0",
-  "description": "[wip]: babelrc for zero config",
+  "version": "0.3.1",
+  "description": "babelrc for zero config",
   "license": "MIT",
   "repository": "akameco/babel-preset-zero",
   "author": "akameco <akameco.t@gmail.com> (akameco.github.io)",
