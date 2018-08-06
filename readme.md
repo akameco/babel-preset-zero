@@ -23,16 +23,16 @@ $ yarn add --dev babel-preset-zero
 
 ### Presets
 
-* [babel-preset-env](https://github.com/babel/babel-preset-env)
-* [babel-preset-flow](https://github.com/babel/babel/tree/master/packages/babel-preset-flow) (if flow-bin exist)
-* [babel-preset-react](https://github.com/babel/babel/tree/master/packages/babel-preset-react) (if react exist)
+- [babel-preset-env](https://github.com/babel/babel-preset-env)
+- [babel-preset-flow](https://github.com/babel/babel/tree/master/packages/babel-preset-flow) (if flow-bin exist)
+- [babel-preset-react](https://github.com/babel/babel/tree/master/packages/babel-preset-react) (if react exist)
 
 ### Plugins
 
-* [babel-plugin-transform-object-rest-spread](https://github.com/babel/babel)
-* [babel-plugin-transform-class-properties](https://github.com/babel/babel)
-* [babel-plugin-minify-dead-code-elimination](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-dead-code-elimination)
-* [babel-macros](https://github.com/kentcdodds/babel-macros)
+- [babel-plugin-transform-object-rest-spread](https://github.com/babel/babel)
+- [babel-plugin-transform-class-properties](https://github.com/babel/babel)
+- [babel-plugin-minify-dead-code-elimination](https://github.com/babel/minify/tree/master/packages/babel-plugin-minify-dead-code-elimination)
+- [babel-macros](https://github.com/kentcdodds/babel-macros)
 
 ## Contributors
 
