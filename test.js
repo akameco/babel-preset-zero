@@ -1,7 +1,7 @@
 // @flow
 
 const cases = require('jest-in-case')
-const { transform } = require('babel-core')
+const { transform } = require('@babel/core')
 
 jest.mock('ptils', () => ({
   hasAnyDep: jest.fn(() => true),

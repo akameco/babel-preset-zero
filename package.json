@@ -33,25 +33,25 @@
     "babel-preset"
   ],
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "babel-plugin-macros": "^2.4.0",
     "babel-plugin-minify-dead-code-elimination": "^0.4.3",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-flow": "^6.23.0",
-    "babel-preset-react": "^6.24.1",
     "ptils": "^0.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
     "all-contributors-cli": "^5.4.0",
-    "babel-core": "^6.26.3",
-    "eslint": "^5.3.0",
+    "eslint": "^5.4.0",
     "eslint-config-precure": "^2.7.0",
-    "flow-bin": "^0.78.0",
+    "flow-bin": "^0.79.1",
     "husky": "^0.14.3",
-    "jest": "^23.4.2",
+    "jest": "^23.5.0",
     "jest-in-case": "^1.0.2",
-    "lint-staged": "^7.2.0",
-    "prettier": "^1.14.0"
+    "lint-staged": "^7.2.2",
+    "prettier": "^1.14.2"
   }
 }
