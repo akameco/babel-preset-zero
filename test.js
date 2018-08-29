@@ -46,5 +46,11 @@ cases(
         const A = () => <div>hello</div>
       `,
     },
+    {
+      name: 'import',
+      input: `
+        import React from 'react';
+      `,
+    },
   ]
 )

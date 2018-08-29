@@ -26,5 +26,6 @@ module.exports = () => ({
       { loose: true, useBuiltIns: true },
     ],
     require.resolve('babel-plugin-minify-dead-code-elimination'),
+    require.resolve('@babel/plugin-transform-modules-commonjs'),
   ],
 })
