@@ -10,7 +10,6 @@
   },
   "scripts": {
     "add-contributor": "all-contributors add",
-    "precommit": "yarn flow && lint-staged",
     "fmt": "prettier --write '**/*.{js,json,md}'",
     "flow": "flow",
     "lint": "eslint .",
@@ -33,26 +32,31 @@
     "babel-preset"
   ],
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-plugin-macros": "^2.4.0",
-    "babel-plugin-minify-dead-code-elimination": "^0.4.3",
+    "babel-plugin-macros": "^2.4.2",
+    "babel-plugin-minify-dead-code-elimination": "^0.5.0",
     "ptils": "^0.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.1.2",
     "all-contributors-cli": "^5.4.0",
-    "eslint": "^5.4.0",
-    "eslint-config-precure": "^2.7.0",
-    "flow-bin": "^0.79.1",
-    "husky": "^0.14.3",
-    "jest": "^23.5.0",
+    "eslint": "^5.6.1",
+    "eslint-config-precure": "^3.1.0",
+    "flow-bin": "^0.83.0",
+    "husky": "^1.1.2",
+    "jest": "^23.6.0",
     "jest-in-case": "^1.0.2",
-    "lint-staged": "^7.2.2",
-    "prettier": "^1.14.2"
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn flow && lint-staged"
+    }
   }
 }
