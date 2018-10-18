@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-zero",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "babelrc for zero config",
   "license": "MIT",
   "repository": "akameco/babel-preset-zero",
