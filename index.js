@@ -13,6 +13,7 @@ module.exports = () => ({
       { targets: envTargets, loose: true, modules: false },
     ],
     hasAnyDep('flow-bin') && require.resolve('@babel/preset-flow'),
+    hasAnyDep('typescript') && require.resolve('@babel/preset-typescript'),
     hasAnyDep('react') && require.resolve('@babel/preset-react'),
   ].filter(Boolean),
   plugins: [
