@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshot class-properties: class-properties 1`] = `
+exports[`plugin snapshot class-properties: class-properties 1`] = `
 "\\"use strict\\";
 
 class A {
@@ -11,19 +11,13 @@ class A {
 }"
 `;
 
-exports[`snapshot dead code: dead code 1`] = `
+exports[`plugin snapshot dead code: dead code 1`] = `
 "\\"use strict\\";
 
 function hoge() {}"
 `;
 
-exports[`snapshot flowtype: flowtype 1`] = `
-"\\"use strict\\";
-
-const a = 'hello';"
-`;
-
-exports[`snapshot import: import 1`] = `
+exports[`plugin snapshot import: import 1`] = `
 "\\"use strict\\";
 
 var _react = _interopRequireDefault(require(\\"react\\"));
@@ -31,14 +25,8 @@ var _react = _interopRequireDefault(require(\\"react\\"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }"
 `;
 
-exports[`snapshot object reset spread: object reset spread 1`] = `
+exports[`plugin snapshot object reset spread: object reset spread 1`] = `
 "\\"use strict\\";
 
 const a = Object.assign({}, foo);"
-`;
-
-exports[`snapshot react: react 1`] = `
-"\\"use strict\\";
-
-const A = () => React.createElement(\\"div\\", null, \\"hello\\");"
 `;

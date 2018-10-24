@@ -4,7 +4,7 @@ const cases = require('jest-in-case')
 const { transform } = require('@babel/core')
 
 jest.mock('ptils', () => ({
-  hasAnyDep: jest.fn(() => true),
+  hasAnyDep: jest.fn(() => false),
 }))
 
 function snapshot(name, input) {
@@ -15,19 +15,12 @@ function snapshot(name, input) {
 }
 
 cases(
-  'snapshot',
+  'plugin snapshot',
   ({ name, input }) => {
     snapshot(name, input)
   },
   [
     { name: 'object reset spread', input: 'const a = {...foo}' },
-    {
-      name: 'flowtype',
-      input: `
-      // @flow
-      type A = string
-      const a: A = 'hello'`,
-    },
     {
       name: 'class-properties',
       input: `
@@ -41,12 +34,6 @@ cases(
       `,
     },
     {
-      name: 'react',
-      input: `
-        const A = () => <div>hello</div>
-      `,
-    },
-    {
       name: 'import',
       input: `
         import React from 'react';
@@ -54,3 +41,25 @@ cases(
     },
   ]
 )
+
+// cases(
+// 'presets snapshot',
+// ({ name, input }) => {
+// snapshot(name, input)
+// },
+// [
+// {
+// name: 'flowtype',
+// input: `
+// // @flow
+// type A = string
+// const a: A = 'hello'`,
+// },
+// {
+// name: 'react',
+// input: `
+// const A = () => <div>hello</div>
+// `,
+// },
+// ]
+// )
