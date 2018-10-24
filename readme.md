@@ -7,6 +7,12 @@
 
 > babelrc for zero config
 
+## Support
+
+- **FlowType**
+- **TypeScript**
+- **React**
+
 ## Install
 
 ```
@@ -26,6 +32,7 @@ $ yarn add --dev babel-preset-zero
 - [@babel/preset-env](https://github.com/babel/babel-preset-env)
 - [@babel/preset-flow](https://github.com/babel/babel/tree/master/packages/babel-preset-flow) (if flow-bin exist)
 - [@babel/preset-react](https://github.com/babel/babel/tree/master/packages/babel-preset-react) (if react exist)
+- [@babel/preset-typescript](https://github.com/babel/babel/tree/master/packages/babel-preset-typescript) (if typescript exist)
 
 ### Plugins
 
