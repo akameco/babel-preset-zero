@@ -38,13 +38,13 @@
     "@babel/preset-env": "7.3.1",
     "@babel/preset-flow": "7.0.0",
     "@babel/preset-react": "7.0.0",
-    "@babel/preset-typescript": "7.1.0",
+    "@babel/preset-typescript": "7.3.3",
     "babel-plugin-macros": "2.5.0",
     "babel-plugin-minify-dead-code-elimination": "0.5.0",
     "ptils": "0.3.0"
   },
   "devDependencies": {
-    "@babel/core": "7.2.2",
+    "@babel/core": "7.3.3",
     "all-contributors-cli": "6.1.1",
     "eslint": "5.14.0",
     "eslint-config-precure": "4.7.0",
