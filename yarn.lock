@@ -1997,10 +1997,10 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-precure@4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-4.7.0.tgz#afaa6eeb733f707e94e11cd6401df8250d98b598"
-  integrity sha512-2/o4jBef49X1chGi5s6jmo7qQBZzCnggDABThF7UfNA/NZ7MneVQy1pVK9dchKTxJEiz34qtpY1PFzOnViYy3g==
+eslint-config-precure@4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-4.7.1.tgz#a4083338d88817223e5c9101940e4060d6c9e3d6"
+  integrity sha512-To84+Nm3yvan7l5WDWOlXmxVGM4mT0kp/fAgqu8qYgkDKqKZaLNcf+WS77pLFKS8ulqvjmcye6MZXl6FVw83tA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^1.2.0"
     "@typescript-eslint/parser" "^1.2.0"
@@ -2131,10 +2131,10 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
-eslint@5.14.0:
-  version "5.14.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.14.0.tgz#380739df2489dd846baea008638b036c1e987974"
-  integrity sha512-jrOhiYyENRrRnWlMYANlGZTqb89r2FuRT+615AabBoajhNjeh9ywDNlh2LU9vTqf0WYN+L3xdXuIi7xuj/tK9w==
+eslint@5.14.1:
+  version "5.14.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.14.1.tgz#490a28906be313685c55ccd43a39e8d22efc04ba"
+  integrity sha512-CyUMbmsjxedx8B0mr79mNOqetvkbij/zrXnFeK2zc3pGRn3/tibjiNAv/3UxFEyfMDjh+ZqTrJrEGBFiGfD5Og==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.9.1"
