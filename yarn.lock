@@ -1997,10 +1997,10 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-precure@4.7.1:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-4.7.1.tgz#a4083338d88817223e5c9101940e4060d6c9e3d6"
-  integrity sha512-To84+Nm3yvan7l5WDWOlXmxVGM4mT0kp/fAgqu8qYgkDKqKZaLNcf+WS77pLFKS8ulqvjmcye6MZXl6FVw83tA==
+eslint-config-precure@4.8.0:
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-precure/-/eslint-config-precure-4.8.0.tgz#6201b1c9f58eeee5c704ee00d4e3ae83432b20ca"
+  integrity sha512-Vr4y0RqaV04ARMh4+CCZ5OnbybGYVjG4/Y0KnOh+DNJd28UupNBH78MtCyuAAwx++ZbZJujcoZenkTf4HrojNQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^1.2.0"
     "@typescript-eslint/parser" "^1.2.0"
