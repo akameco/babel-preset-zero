@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.4.4",
-    "all-contributors-cli": "6.3.1",
+    "all-contributors-cli": "6.4.0",
     "eslint": "5.16.0",
     "eslint-config-precure": "4.13.0",
     "flow-bin": "0.98.1",
