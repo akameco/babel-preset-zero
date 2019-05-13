@@ -47,13 +47,13 @@
     "@babel/core": "7.4.4",
     "all-contributors-cli": "6.4.0",
     "eslint": "5.16.0",
-    "eslint-config-precure": "4.13.0",
+    "eslint-config-precure": "4.15.0",
     "flow-bin": "0.98.1",
     "husky": "2.2.0",
     "jest": "24.8.0",
     "jest-in-case": "1.0.2",
     "lint-staged": "8.1.6",
-    "prettier": "1.17.0"
+    "prettier": "1.17.1"
   },
   "husky": {
     "hooks": {

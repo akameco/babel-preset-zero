@@ -1,3 +1,6 @@
 {
-  "extends": ["precure/oss"]
+  "extends": ["precure/oss"],
+  "rules": {
+    "unicorn/prevent-abbreviations": "off"
+  }
 }
