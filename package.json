@@ -48,7 +48,7 @@
     "all-contributors-cli": "6.7.0",
     "eslint": "6.0.1",
     "eslint-config-precure": "4.17.0",
-    "flow-bin": "0.101.1",
+    "flow-bin": "0.102.0",
     "husky": "2.4.1",
     "jest": "24.8.0",
     "jest-in-case": "1.0.2",
